@@ -2,41 +2,52 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="greet.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="greet.css">
 </head>
 
 <body>
-    <div class="container">
+	<div class="container">
 		<div>
 			<h1>Greetings</h1>
+			<div class="massage">
 
-			<div>
-				<input type="text" class="greet" placeholder="type name">
-				<button class="addGreetings btn ">Add greetings</button>
+			</div>
+
+			<div class="button">
+				<div>
+					<h1>NAME</h1>
+				</div>
+
+				<div>
+					<input type="text" class="greet" placeholder="type name">
+				</div>
+
 			</div>
 
 			<div class="filter">
 				<strong></strong>
 
-				<input type="radio" name="" value="">english
-				<input type="radio" name="" value="">afrikaans
-				<input type="radio" name="" value=""> isixhosa
+				<input type="radio" name="language" value="English">English
+				<input type="radio" name="language" value="Afrikaans">Afrikaans
+				<input type="radio" name="language" value="Isixhosa">Isixhosa
 
 			</div>
-			
-			<div class="massages">
-				<!-- <i>Reg numbers to be added here...</i> -->
+			<div>
 
-				<div class="massage">
-					
-				</div>
+				<button class="addGreetings btn ">Add greetings</button>
+			</div>
+
+
+			<div class="displayGreet">
+
 			</div>
 		</div>
 	</div>
 	<script src="greet.js"></script>
+	<script src="greet-dom.js"></script>
 </body>
 
 </html>

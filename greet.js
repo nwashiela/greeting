@@ -1,12 +1,17 @@
-const greet = document.querySelector(".greet");
-const massage = document.querySelector(".massage");
-const massages = document.querySelector(".massages");
-const addGreetingsbtn = document.querySelector(".addGreetings");
+function Greetings(){
+function code(languages,name){
+    if (languages == "English"){
+        return displayGreet.innerHTML = "Hi, " + name;
+    }
+    else if(languages == "Afrikaans"){
+      return displayGreet.innerHTML = "More," + name;
+  }
+  else if(languages == "Isixhosa"){
+      return displayGreet.innerHTML = "Molo, " + name;
+  }
 
-addGreetings.addEventListener("click", function(){
-
-    
-})
-
-
-
+}
+return{
+    code,
+}
+}
