@@ -1,17 +1,23 @@
 function Greetings(){
+    var greet = []; 
+
 function code(languages,name){
     if (languages == "English"){
-        return displayGreet.innerHTML = "Hi, " + name;
+        return "Hi, " + name;
     }
     else if(languages == "Afrikaans"){
-      return displayGreet.innerHTML = "More," + name;
+      return "More," + name;
   }
   else if(languages == "Isixhosa"){
-      return displayGreet.innerHTML = "Molo, " + name;
+      return "Molo, " + name;
   }
 
 }
+   
+
 return{
     code,
+    
 }
+
 }
